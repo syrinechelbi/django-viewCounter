@@ -2,7 +2,7 @@
 pipeline {
     agent any
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub')
+        DOCKERHUB_CREDENTIALS = credentials('f6e303a4-569e-4451-85f5-bc39bc825b8c')
         DOCKER_IMAGE = 'syrinechelbi/simple-django-app:latest'
     }
     stages {
